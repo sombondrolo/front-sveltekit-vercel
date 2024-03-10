@@ -4,10 +4,10 @@
   import Footer from '../partials/Footer.svelte'
 </script>
 
-<div class="app">
+<div class="layout">
 	<Navbar />
 
-	<main class="home-index">
+	<main class="content">
 		<slot />
 	</main>
 
@@ -16,7 +16,7 @@
 
 <style>
 /* from demo +layout.svelte */
-.app {
+.layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
